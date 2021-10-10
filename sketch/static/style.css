@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("bg.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.title
+{
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.image-container{
+  display: table;
+}
+
+.image-block
+{
+  display: table-cell;
+  padding: 10px;
+} 
+
+.image_class
+{
+    width: 80%;
+    height: 80%;
+    max-height: 500px;
+}
+
+.form-container
+{
+  padding: 10px 10px;
+}
